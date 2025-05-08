@@ -1,0 +1,32 @@
+{
+  "openai.com": {
+    "approved": true,
+    "reason": "Default whitelisted domain",
+    "timestamp": null
+  },
+  "wikipedia.org": {
+    "approved": true,
+    "reason": "Default whitelisted domain",
+    "timestamp": null
+  },
+  "python.org": {
+    "approved": true,
+    "reason": "Default whitelisted domain",
+    "timestamp": null
+  },
+  "www.wikipedia.org": {
+    "approved": true,
+    "reason": "Default whitelisted domain",
+    "timestamp": null
+  },
+  "httpbin.org": {
+    "approved": true,
+    "reason": "Testing controller request",
+    "timestamp": null
+  },
+  "api.openai.com": {
+    "approved": true,
+    "reason": "User query",
+    "timestamp": null
+  }
+}
