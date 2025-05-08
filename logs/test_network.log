@@ -1,0 +1,44 @@
+2025-05-03 20:45:14,838 - root - INFO - Starting Friday AI Network Integration Tests
+2025-05-03 20:45:22,677 - root - INFO - 
+=== Testing Internet Controller ===
+2025-05-03 20:45:22,678 - root - INFO - Testing whitelist management...
+2025-05-03 20:45:22,679 - root - INFO - Initial whitelist: dict_keys(['openai.com', 'wikipedia.org', 'python.org', 'www.wikipedia.org', 'httpbin.org'])
+2025-05-03 20:45:22,679 - root - INFO - Domain addition result: {'success': True, 'domain': 'python.org', 'approved': True, 'message': 'Domain already in whitelist'}
+2025-05-03 20:45:22,679 - root - INFO - Testing web request...
+2025-05-03 20:45:22,679 - root - INFO - Mock confirmation request for domain: httpbin.org
+2025-05-03 20:45:22,873 - internet_controller - INFO - {"timestamp": null, "domain": "httpbin.org", "url": "https://httpbin.org/get?param=test", "method": "GET", "success": true, "status": 200}
+2025-05-03 20:45:22,874 - root - INFO - Web request successful!
+2025-05-03 20:45:22,874 - root - INFO - Status: 200
+2025-05-03 20:45:22,874 - root - INFO - Domain removal result: {'success': True, 'domain': 'python.org'}
+2025-05-03 20:45:22,875 - root - INFO - 
+=== Testing API Logger ===
+2025-05-03 20:45:22,880 - root - INFO - Logging OpenAI API call...
+2025-05-03 20:45:22,881 - api_logger - INFO - {"timestamp": "2025-05-03T20:45:22.881376", "service": "openai", "endpoint": "chat", "usage_data": {"total_tokens": 150}, "estimated_cost": 0.0003, "monthly_cost_to_date": 0.05180000000000001}
+2025-05-03 20:45:22,881 - root - INFO - API cost estimate: {'estimated_cost': 0.0003, 'monthly_cost_to_date': 0.05180000000000001}
+2025-05-03 20:45:22,881 - root - INFO - Logging Google API call...
+2025-05-03 20:45:22,881 - api_logger - INFO - {"timestamp": "2025-05-03T20:45:22.881376", "service": "google", "endpoint": "search", "usage_data": {"queries": 1}, "estimated_cost": 0.01, "monthly_cost_to_date": 0.061800000000000015}
+2025-05-03 20:45:22,882 - root - INFO - API cost estimate: {'estimated_cost': 0.01, 'monthly_cost_to_date': 0.061800000000000015}
+2025-05-03 20:45:22,882 - root - INFO - Monthly usage: {'openai': {'chat_tokens': 900, 'whisper_minutes': 0, 'estimated_cost': 0.0017999999999999997}, 'google': {'search_queries': 6, 'estimated_cost': 0.060000000000000005}, 'total_estimated_cost': 0.061800000000000015}
+2025-05-03 20:45:22,883 - root - INFO - 
+=== Testing API Interface ===
+2025-05-03 20:45:22,886 - root - INFO - Testing web request...
+2025-05-03 20:45:22,886 - root - INFO - Mock request: POST /web_request
+2025-05-03 20:45:22,887 - root - INFO - Data: {'url': 'https://httpbin.org/get?param=test', 'method': 'GET', 'data': None, 'headers': None, 'reason': 'Testing API interface'}
+2025-05-03 20:45:23,012 - root - INFO - Web request successful!
+2025-05-03 20:45:23,012 - root - INFO - Skipping API tests (no API keys available)
+2025-05-03 20:45:23,012 - root - INFO - 
+=== Testing Network Module ===
+2025-05-03 20:45:23,014 - network_module - INFO - Network module initialized
+2025-05-03 20:45:23,014 - root - INFO - Testing online/offline toggle...
+2025-05-03 20:45:23,014 - network_module - INFO - Online status set to: True
+2025-05-03 20:45:23,014 - root - INFO - Set online status to: True
+2025-05-03 20:45:23,014 - network_module - INFO - Online status set to: False
+2025-05-03 20:45:23,014 - root - INFO - Set online status to: False
+2025-05-03 20:45:23,014 - root - INFO - Testing connectivity...
+2025-05-03 20:45:23,015 - root - INFO - Domain approval request: www.wikipedia.org
+2025-05-03 20:45:23,015 - root - INFO - Reason: Testing internet connectivity
+2025-05-03 20:45:24,458 - root - INFO - Connectivity test result: {'online': False, 'details': {'success': False, 'error': 'Domain not allowed', 'domain': 'www.wikipedia.org'}}
+2025-05-03 20:45:24,458 - root - INFO - API interface available: True
+2025-05-03 20:45:24,458 - root - INFO - Monthly usage available: True
+2025-05-03 20:45:24,458 - network_module - INFO - Network module shut down
+2025-05-03 20:45:24,459 - root - INFO - Tests completed

@@ -1,0 +1,136 @@
+2025-05-07 14:18:47,634 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 14:18:47,634 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 14:18:47,634 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 14:18:47,634 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 14:18:47,634 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 14:18:47,634 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 14:18:47,635 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: memory_access
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: friday_system
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: memory_system
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: llm_interface
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: model_manager
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: security_monitor
+2025-05-07 14:18:47,635 - command_deck - INFO - Registered component: network_module
+2025-05-07 14:18:47,651 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 14:18:48,270 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 14:18:48,273 - memory_access_logs - INFO - Starting memory access monitoring
+2025-05-07 14:18:48,273 - command_deck - INFO - Starting Command Deck Dashboard update loop
+2025-05-07 16:16:27,891 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 16:16:27,891 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 16:16:27,891 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 16:16:27,891 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 16:16:27,891 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 16:16:27,891 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 16:16:27,891 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 16:16:27,891 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 16:16:27,891 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: memory_access
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: friday_system
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: memory_system
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: llm_interface
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: model_manager
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: security_monitor
+2025-05-07 16:16:27,892 - command_deck - INFO - Registered component: network_module
+2025-05-07 16:16:27,898 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 16:16:28,523 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 16:16:28,525 - memory_access_logs - INFO - Starting memory access monitoring
+2025-05-07 16:16:28,525 - command_deck - INFO - Starting Command Deck Dashboard update loop
+2025-05-07 16:26:56,709 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 16:26:56,709 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 16:26:56,710 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 16:26:56,710 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 16:26:56,710 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 16:26:56,710 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 16:26:56,710 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 16:26:56,710 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 16:26:56,710 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 16:26:56,710 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 16:26:56,710 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 16:26:56,710 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 16:26:56,711 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 16:26:56,711 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered component: memory_access
+2025-05-07 16:26:56,711 - command_deck - INFO - Registered component: memory_access
+2025-05-07 16:26:56,711 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 16:26:56,711 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 16:26:57,060 - root - INFO - 127.0.0.1 - - [07/May/2025 16:26:57] "GET / HTTP/1.1" 200 -
+2025-05-07 16:26:57,322 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 16:26:57,322 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 16:26:57,323 - memory_access_logs - WARNING - Cannot start memory access monitoring: No memory system provided
+2025-05-07 16:26:57,323 - memory_access_logs - WARNING - Cannot start memory access monitoring: No memory system provided
+2025-05-07 16:26:57,989 - root - INFO - 127.0.0.1 - - [07/May/2025 16:26:57] code 404, message File not found
+2025-05-07 16:26:57,989 - root - INFO - 127.0.0.1 - - [07/May/2025 16:26:57] "GET /favicon.ico HTTP/1.1" 404 -
+2025-05-07 18:48:17,565 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 18:48:17,565 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 18:48:17,565 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 18:48:17,565 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 18:48:17,565 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 18:48:17,565 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 18:48:17,565 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 18:48:17,565 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 18:48:17,565 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 18:48:17,565 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: memory_access
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: friday_system
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: memory_system
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: llm_interface
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: model_manager
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: security_monitor
+2025-05-07 18:48:17,566 - command_deck - INFO - Registered component: network_module
+2025-05-07 18:48:17,573 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 18:48:18,189 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 18:48:18,191 - memory_access_logs - INFO - Starting memory access monitoring
+2025-05-07 18:48:18,191 - command_deck - INFO - Starting Command Deck Dashboard update loop
+2025-05-07 19:06:16,627 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 19:06:16,627 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 19:06:16,627 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 19:06:16,627 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 19:06:16,627 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 19:06:16,627 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 19:06:16,627 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 19:06:16,627 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 19:06:16,628 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: memory_access
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: friday_system
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: memory_system
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: llm_interface
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: model_manager
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: security_monitor
+2025-05-07 19:06:16,628 - command_deck - INFO - Registered component: network_module
+2025-05-07 19:06:16,635 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 19:06:17,252 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 19:06:17,254 - memory_access_logs - INFO - Starting memory access monitoring
+2025-05-07 19:06:17,254 - command_deck - INFO - Starting Command Deck Dashboard update loop
+2025-05-07 19:09:03,759 - command_deck - ERROR - Error loading dashboard config: Expecting value: line 1 column 1 (char 0)
+2025-05-07 19:09:03,759 - command_deck - INFO - Command Deck Dashboard initialized
+2025-05-07 19:09:03,760 - system_metrics - INFO - System Metrics Monitor initialized
+2025-05-07 19:09:03,760 - command_deck - INFO - Registered panel: system_metrics
+2025-05-07 19:09:03,760 - command_deck - INFO - Registered component: system_metrics
+2025-05-07 19:09:03,760 - error_tracker - INFO - Error Tracker initialized
+2025-05-07 19:09:03,760 - command_deck - INFO - Registered panel: error_tracker
+2025-05-07 19:09:03,760 - command_deck - INFO - Registered component: error_tracker
+2025-05-07 19:09:03,760 - memory_access_logs - INFO - Memory Access Monitor initialized
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered panel: memory_access
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: memory_access
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: friday_system
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: memory_system
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: llm_interface
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: model_manager
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: security_monitor
+2025-05-07 19:09:03,761 - command_deck - INFO - Registered component: network_module
+2025-05-07 19:09:03,770 - system_metrics - INFO - Starting system metrics collection
+2025-05-07 19:09:04,386 - error_tracker - INFO - Starting error log monitoring
+2025-05-07 19:09:04,388 - memory_access_logs - INFO - Starting memory access monitoring
+2025-05-07 19:09:04,388 - command_deck - INFO - Starting Command Deck Dashboard update loop

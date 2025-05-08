@@ -1,0 +1,12 @@
+{
+    "openai": {
+        "chat_tokens": 900,
+        "whisper_minutes": 0,
+        "estimated_cost": 0.0017999999999999997
+    },
+    "google": {
+        "search_queries": 6,
+        "estimated_cost": 0.060000000000000005
+    },
+    "total_estimated_cost": 0.061800000000000015
+}

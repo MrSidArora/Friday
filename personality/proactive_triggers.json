@@ -1,0 +1,80 @@
+{
+  "time_based": [
+    {
+      "name": "morning_greeting",
+      "condition": {
+        "time_range": [
+          "06:00",
+          "10:00"
+        ]
+      },
+      "suggestion_template": "Good morning! Here's your schedule for today: {daily_schedule}",
+      "priority": 0.8,
+      "cooldown_hours": 20
+    },
+    {
+      "name": "evening_summary",
+      "condition": {
+        "time_range": [
+          "19:00",
+          "22:00"
+        ]
+      },
+      "suggestion_template": "Here's a summary of your day: {day_summary}",
+      "priority": 0.7,
+      "cooldown_hours": 20
+    }
+  ],
+  "pattern_based": [
+    {
+      "name": "repeated_searches",
+      "condition": {
+        "repeated_searches": {
+          "count": 3,
+          "timespan_minutes": 15
+        }
+      },
+      "suggestion_template": "I notice you've searched for {search_term} several times. Would you like me to help find more comprehensive information?",
+      "priority": 0.9,
+      "cooldown_hours": 1
+    },
+    {
+      "name": "task_reminder",
+      "condition": {
+        "mentioned_task": {
+          "timespan_hours": 24,
+          "not_completed": true
+        }
+      },
+      "suggestion_template": "Earlier, you mentioned a task to {task_description}. Would you like to work on that now?",
+      "priority": 0.8,
+      "cooldown_hours": 4
+    }
+  ],
+  "context_based": [
+    {
+      "name": "low_system_resources",
+      "condition": {
+        "system_resource": {
+          "type": "memory",
+          "threshold": 0.9
+        }
+      },
+      "suggestion_template": "I notice your system memory is running low. Would you like me to help close unused applications?",
+      "priority": 0.95,
+      "cooldown_hours": 2
+    },
+    {
+      "name": "learning_opportunity",
+      "condition": {
+        "repeated_difficulties": {
+          "topic": "{topic}",
+          "count": 3
+        }
+      },
+      "suggestion_template": "I've noticed you've had some challenges with {topic}. Would you like me to provide some learning resources?",
+      "priority": 0.7,
+      "cooldown_hours": 48
+    }
+  ]
+}
