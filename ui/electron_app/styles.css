@@ -1,0 +1,158 @@
+/* Domain Approval Dialog */
+
+.online-status-container {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.online-toggle {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 4px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.online-toggle.offline {
+    background-color: #f5f5f5;
+}
+
+.online-toggle.online {
+    background-color: #e8f5e9;
+    border-color: #c8e6c9;
+}
+
+.online-status-text {
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.online-status-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f44336;
+    transition: background-color 0.3s ease;
+}
+
+.online-toggle.online .online-status-icon {
+    background-color: #4caf50;
+}
+
+.approval-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.approval-dialog.hidden {
+    display: none;
+}
+
+.approval-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    max-width: 90%;
+    overflow: hidden;
+}
+
+.approval-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.approval-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.approval-body {
+    padding: 16px;
+}
+
+.approval-message {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.domain-container {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+}
+
+.domain-name {
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.approval-reason {
+    margin-bottom: 16px;
+    color: #555;
+}
+
+.approval-warning {
+    background-color: #fff8e1;
+    border-left: 4px solid #ffca28;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+
+.approval-warning p {
+    margin: 6px 0;
+    color: #5d4037;
+    font-size: 13px;
+}
+
+.approval-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 16px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+}
+
+.approval-footer button {
+    margin-left: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deny-button {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.approve-button {
+    background-color: #2196f3;
+    border: 1px solid #2196f3;
+    color: white;
+}

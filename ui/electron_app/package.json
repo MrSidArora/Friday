@@ -1,0 +1,22 @@
+{
+  "name": "friday-ui",
+  "version": "0.1.0",
+  "description": "Friday AI - Personal AI Assistant Interface",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.0.0",
+    "marked": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
