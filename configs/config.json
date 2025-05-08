@@ -1,0 +1,37 @@
+# Create configs/config.json
+import os
+import json
+
+config_dir = "configs"
+os.makedirs(config_dir, exist_ok=True)
+
+main_config = {
+    "system": {
+        "name": "Friday",
+        "version": "0.1.0",
+        "development_mode": True
+    },
+    "paths": {
+        "models": "models",
+        "data": "data",
+        "logs": "logs",
+        "configs": "configs"
+    },
+    "components": {
+        "model_manager": {
+            "config_path": "configs/model_config.json",
+            "enabled": True
+        },
+        "memory_system": {
+            "config_path": "configs/memory_config.json",
+            "enabled": True
+        },
+        "security_monitor": {
+            "config_path": "configs/security_config.json",
+            "enabled": True
+        }
+    }
+}
+
+with open(os.path.join(config_dir, "config.json"), "w") as f:
+    json.dump(main_config, f, indent=2)

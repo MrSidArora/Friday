@@ -1,0 +1,26 @@
+{
+    "model_directory": "models",
+    "auto_load_model": true,
+    "default_model": "mixtral",
+    "ollama_base_url": "http://localhost:11434/api",
+    "models": {
+        "mixtral": {
+            "type": "ollama",
+            "ollama_model": "mixtral:latest",
+            "max_context_length": 8192,
+            "requires_gpu": true
+        },
+        "llama2": {
+            "type": "ollama",
+            "ollama_model": "llama2:latest",
+            "max_context_length": 4096,
+            "requires_gpu": true
+        },
+        "codellama": {
+            "type": "ollama",
+            "ollama_model": "codellama:latest",
+            "max_context_length": 4096,
+            "requires_gpu": true
+        }
+    }
+}

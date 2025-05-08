@@ -1,0 +1,192 @@
+Folder PATH listing
+Volume serial number is 9ED2-86EF
+C:.
+¦   .gitignore
+¦   enhanced_test.py
+¦   Friday.bat
+¦   friday.lock
+¦   integration_test.py
+¦   main.py
+¦   output_tree.txt
+¦   process_manager.py
+¦   python compile.py
+¦   README.md
+¦   requirements.txt
+¦   setup.py
+¦   setup_ui.py
+¦   start_friday.py
+¦   test_http.py
+¦   test_initialization.py
+¦   test_internet_controller.py
+¦   test_network_integration.py
+¦   test_network_stack.py
+¦   test_ollama_integration.py
+¦   test_ws.py
+¦   __init__.py
+¦   
++---config
+¦       allowed_domains.json
+¦       
++---configs
+¦       allowed_domains.json
+¦       config.json
+¦       llm_config.json
+¦       memory_config.json
+¦       model_config.json
+¦       security_config.json
+¦       system_config.json
+¦       
++---core
+¦   ¦   core_intelligence.py
+¦   ¦   intent_model.py
+¦   ¦   llm_interface.py
+¦   ¦   memory_system.py
+¦   ¦   model_manager.py
+¦   ¦   request_router.py
+¦   ¦   security_monitor.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---model_adapters
+¦   ¦       mixtral_adapter.py
+¦   ¦       
+¦   +---__pycache__
+¦           core_intelligence.cpython-310.pyc
+¦           intent_model.cpython-310.pyc
+¦           llm_interface.cpython-310.pyc
+¦           memory_system.cpython-310.pyc
+¦           model_manager.cpython-310.pyc
+¦           request_router.cpython-310.pyc
+¦           security_monitor.cpython-310.pyc
+¦           __init__.cpython-310.pyc
+¦           
++---data
+¦   ¦   whitelist.json
+¦   ¦   
+¦   +---memory
+¦       ¦   mid_term.db
+¦       ¦   
+¦       +---long_term
++---demos
+¦   ¦   core_intelligence_demo.py
+¦   ¦   mock_response_generator.py
+¦   ¦   
+¦   +---__pycache__
+¦           core_intelligence_demo.cpython-310.pyc
+¦           mock_response_generator.cpython-310.pyc
+¦           
++---intent
+¦   ¦   context_analyzer.py
+¦   ¦   implicit_needs.py
+¦   ¦   intent_profiler.py
+¦   ¦   response_generator.py
+¦   ¦   
+¦   +---__pycache__
+¦           context_analyzer.cpython-310.pyc
+¦           implicit_needs.cpython-310.pyc
+¦           intent_profiler.cpython-310.pyc
+¦           response_generator.cpython-310.pyc
+¦           
++---logs
+¦       .gitkeep
+¦       api_usage.log
+¦       core.log
+¦       friday.log
+¦       friday_system.log
+¦       integration_test.log
+¦       intent.log
+¦       internet_access.log
+¦       llm.log
+¦       memory.log
+¦       monthly_usage_2025-05.json
+¦       personality.log
+¦       security.log
+¦       test_network.log
+¦       
++---models
+¦       model_config.json
+¦       
++---network
+¦   ¦   api_interface.py
+¦   ¦   api_logger.py
+¦   ¦   internet_controller.py
+¦   ¦   network_integration.py
+¦   ¦   proxy_module.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           api_interface.cpython-310.pyc
+¦           api_logger.cpython-310.pyc
+¦           internet_controller.cpython-310.pyc
+¦           network_integration.cpython-310.pyc
+¦           __init__.cpython-310.pyc
+¦           
++---personality
+¦   ¦   friday-persona.json
+¦   ¦   friday_persona.py
+¦   ¦   preferences.db
+¦   ¦   preferences.py
+¦   ¦   proactive_engine.py
+¦   ¦   proactive_triggers.json
+¦   ¦   
+¦   +---__pycache__
+¦           friday_persona.cpython-310.pyc
+¦           preferences.cpython-310.pyc
+¦           proactive_engine.cpython-310.pyc
+¦           
++---prompt_templates
+¦       template_engine.py
+¦       
++---scripts
+¦       download_model.py
+¦       setup.bat
+¦       
++---tests
+¦   ¦   integration_test.py
+¦   ¦   test_core_intelligence.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           integration_test.cpython-310.pyc
+¦           test_core_intelligence.cpython-310.pyc
+¦           __init__.cpython-310.pyc
+¦           
++---ui
+¦   ¦   http_controller.py
+¦   ¦   ui_controller.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---electron_app
+¦   ¦   ¦   domain-approval.js
+¦   ¦   ¦   index.html
+¦   ¦   ¦   main.js
+¦   ¦   ¦   package-lock.json
+¦   ¦   ¦   package.json
+¦   ¦   ¦   preload.js
+¦   ¦   ¦   renderer.js
+¦   ¦   ¦   styles.css
+¦   ¦   ¦   
+¦   ¦   +---styles
+¦   ¦           main.css
+¦   ¦   ¦ 
+¦   ¦   +---assets
+¦   ¦           "Many files"
+¦   ¦   ¦ 
+¦   ¦   +---node_modules
+¦   ¦           "Many files"
+¦   ¦
+¦   +---speech
+¦   ¦   ¦   piper_tts.py
+¦   ¦   ¦   whisper_client.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           piper_tts.cpython-310.pyc
+¦   ¦           whisper_client.cpython-310.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           http_controller.cpython-310.pyc
+¦           __init__.cpython-310.pyc
+¦           
++---__pycache__
+        main.cpython-310.pyc
+        process_manager.cpython-310.pyc
+        

@@ -1,0 +1,49 @@
+// configs/command_deck_config.json
+{
+    "refresh_rate": 5,
+    "error_log_limit": 100,
+    "default_panels": [
+        "system_metrics", 
+        "memory_access", 
+        "error_tracker"
+    ],
+    "ui_theme": "dark",
+    "enable_remote_access": false,
+    "logging": {
+        "level": "INFO",
+        "file": "logs/command_deck.log"
+    },
+    "memory_monitor": {
+        "log_limit": 200,
+        "include_details": true
+    },
+    "system_metrics": {
+        "history_limit": 100,
+        "update_interval": 5,
+        "warning_thresholds": {
+            "cpu": 75,
+            "memory": 80,
+            "disk": 85
+        },
+        "critical_thresholds": {
+            "cpu": 90,
+            "memory": 90,
+            "disk": 95
+        }
+    },
+    "error_tracker": {
+        "log_limit": 1000,
+        "update_interval": 10,
+        "monitored_logs": [
+            "friday_system.log",
+            "core.log",
+            "memory.log",
+            "llm.log",
+            "intent.log",
+            "internet_access.log",
+            "security.log",
+            "personality.log",
+            "api_usage.log"
+        ]
+    }
+}

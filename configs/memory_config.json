@@ -1,0 +1,16 @@
+{
+    "short_term": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 0,
+        "ttl": 3600
+    },
+    "mid_term": {
+        "db_path": "data/memory/mid_term.db",
+        "retention_days": 30
+    },
+    "long_term": {
+        "db_path": "data/memory/long_term",
+        "similarity_threshold": 0.75
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "auto_add_context": true,
+  "context_types": {
+    "date_time": true,
+    "system_metrics": true,
+    "weather": false,
+    "system_info": true
+  },
+  "context_update_interval": 60,
+  "max_context_tokens": 500
+}

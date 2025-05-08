@@ -1,0 +1,24 @@
+{
+    "logging": {
+        "level": "INFO",
+        "file_path": "logs/security.log",
+        "max_size_mb": 10,
+        "backup_count": 5
+    },
+    "monitoring": {
+        "check_interval_seconds": 60,
+        "thresholds": {
+            "cpu_warning": 80.0,
+            "cpu_critical": 95.0,
+            "memory_warning": 80.0,
+            "memory_critical": 95.0,
+            "disk_warning": 85.0,
+            "disk_critical": 95.0
+        }
+    },
+    "security": {
+        "log_api_access": true,
+        "log_internet_access": true,
+        "require_confirmation_for_system_commands": true
+    }
+}

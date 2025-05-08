@@ -1,0 +1,12 @@
+{
+  "update_interval": 5,
+  "monitor_processes": true,
+  "monitor_startup_items": true,
+  "monitor_sensors": true,
+  "monitor_network": true,
+  "weather_api_key": null,
+  "weather_location": "Brighton, Massachusetts",
+  "display_in_ui": true,
+  "display_update_interval": 5000,
+  "include_in_model_context": true
+}

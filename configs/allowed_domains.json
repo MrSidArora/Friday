@@ -1,0 +1,26 @@
+{
+  "openai.com": {
+    "approved": true,
+    "approved_date": "2023-07-01T12:00:00.000Z",
+    "reason": "Default approved domain for API access",
+    "access_count": 0
+  },
+  "wikipedia.org": {
+    "approved": true,
+    "approved_date": "2023-07-01T12:00:00.000Z",
+    "reason": "Default approved domain for information lookup",
+    "access_count": 0
+  },
+  "github.com": {
+    "approved": true,
+    "approved_date": "2023-07-01T12:00:00.000Z",
+    "reason": "Default approved domain for code resources",
+    "access_count": 0
+  },
+  "python.org": {
+    "approved": true,
+    "approved_date": "2023-07-01T12:00:00.000Z",
+    "reason": "Default approved domain for Python documentation",
+    "access_count": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "default_model": "mixtral",
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "top_p": 0.9,
+  "repeat_penalty": 1.1,
+  "api_enabled": true,
+  "streaming_enabled": true,
+  "use_external_apis": true,
+  "external_api_priority": ["local", "openai", "google"],
+  "prompt_templates": {
+    "conversation": "You are Friday, a helpful AI assistant who provides precise, accurate responses without adding phrases like 'How can I assist you further'. Just answer exactly what is being asked.\n\nUser: {prompt}\nFriday:",
+    "reasoning": "You are Friday, a helpful AI assistant with strong reasoning capabilities. Provide precise answers without adding phrases like 'How can I assist you further'. Think through this problem step by step.\n\nProblem: {prompt}\n\nSolution:",
+    "code": "You are Friday, a helpful AI assistant skilled in programming. Generate code for the following request without adding phrases like 'How can I assist you further'.\n\nRequest: {prompt}\n\nCode:",
+    "summarization": "You are Friday, a helpful AI assistant. Summarize the following text concisely while preserving the key points without adding phrases like 'How can I assist you further'.\n\nText: {prompt}\n\nSummary:"
+  }
+}

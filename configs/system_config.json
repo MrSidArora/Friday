@@ -1,0 +1,39 @@
+{
+  "development_mode": true,
+  "model_engine": {
+    "type": "ollama",
+    "api_url": "http://localhost:11434/api",
+    "default_model": "mixtral"
+  },
+  "online_access": {
+    "enabled": false,
+    "require_confirmation": true,
+    "log_all_requests": true,
+    "require_passphrase": false,
+    "passphrase": "" 
+  },
+  "security": {
+    "memory_threshold_warning": 0.85,
+    "log_level": "INFO"
+  },
+  "ui": {
+    "show_offline_indicator": true,
+    "enable_quick_toggle": true
+  },
+  "memory": {
+    "short_term": {
+      "redis_host": "localhost",
+      "redis_port": 6379,
+      "redis_db": 0,
+      "ttl": 86400
+    },
+    "mid_term": {
+      "db_path": "data/mid_term.db",
+      "cleanup_interval": 2592000
+    },
+    "long_term": {
+      "chroma_path": "data/chroma",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    }
+  }
+}

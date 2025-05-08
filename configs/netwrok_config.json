@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "online_by_default": true,
+  "require_confirmation": true,
+  "whitelist_enabled": false
+}

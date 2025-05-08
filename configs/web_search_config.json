@@ -1,0 +1,32 @@
+{
+  "search_engines": {
+    "default": "duckduckgo",
+    "duckduckgo": {
+      "enabled": true,
+      "base_url": "https://html.duckduckgo.com/html/?q=",
+      "requires_api_key": false
+    },
+    "google": {
+      "enabled": false,
+      "base_url": "https://www.googleapis.com/customsearch/v1",
+      "requires_api_key": true,
+      "api_key": null,
+      "cx": null
+    },
+    "bing": {
+      "enabled": false,
+      "base_url": "https://api.bing.microsoft.com/v7.0/search",
+      "requires_api_key": true,
+      "api_key": null
+    }
+  },
+  "max_results": 5,
+  "safe_search": true,
+  "log_searches": true,
+  "cache_enabled": true,
+  "cache_ttl": 3600,
+  "max_snippets_per_query": 3,
+  "max_snippet_length": 200,
+  "include_in_model_context": true,
+  "auto_search_for_queries": false
+}
